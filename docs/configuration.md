@@ -19,6 +19,14 @@ scripts/00_check.sh     # 설정 점검. 비밀 값은 출력하지 않고 "set 
 | `WORK_DIR` | 아니요 (`./work`) | 원본 데이터, 생성 데이터, 체크포인트, 서빙 디렉터리, 로그, 벤치마크 결과가 모두 여기에 생깁니다. |
 | `CACHE_DIR` | 아니요 (`$WORK_DIR/cache`) | vLLM 컴파일 캐시 |
 
+vLLM 서버 컨테이너는 root로 돌기 때문에 `CACHE_DIR` 아래 파일은 root 소유가 됩니다. 일반 사용자로는 지워지지 않으므로 컨테이너로 지웁니다.
+
+```bash
+docker run --rm -v "$PWD/work:/w" --entrypoint rm vllm/vllm-openai:v0.31.0 -rf /w/cache
+```
+
+나머지 `WORK_DIR` 파일은 실행한 사용자 소유입니다. `work/serve/` 아래 하드링크는 지워도 `MODEL_DIR`의 원본에는 영향이 없습니다.
+
 ```bash
 hf download LGAI-EXAONE/EXAONE-4.5-33B-FP8 --revision 69570ad5d9a5159816ef267f2f4d37e36447f1be --local-dir /path/to/EXAONE-4.5-33B-FP8
 ```
