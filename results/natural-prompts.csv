@@ -1,0 +1,86 @@
+device,thinking,config,prompt,run,prompt_tokens,completion_tokens,seconds,tok_s,drafted,accepted
+RTX PRO 6000,off,no-spec,casual-ko,1,32,400,10.4,38.6,0,0
+RTX PRO 6000,off,no-spec,casual-en,1,26,400,10.3,38.7,0,0
+RTX PRO 6000,off,no-spec,code-review,1,1607,400,11.2,35.8,0,0
+RTX PRO 6000,off,no-spec,doc-en-sum,1,10156,400,13.4,29.8,0,0
+RTX PRO 6000,off,no-spec,code-gen,1,32,400,10.4,38.6,0,0
+RTX PRO 6000,off,no-spec,casual-ko,2,32,400,10.4,38.6,0,0
+RTX PRO 6000,off,no-spec,casual-en,2,26,400,10.4,38.6,0,0
+RTX PRO 6000,off,no-spec,code-review,2,1607,400,11.0,36.4,0,0
+RTX PRO 6000,off,no-spec,doc-en-sum,2,10156,400,12.0,33.3,0,0
+RTX PRO 6000,off,no-spec,code-gen,2,32,400,10.4,38.6,0,0
+RTX PRO 6000,off,new-mtp-ft-ko,casual-ko,1,32,400,9.5,42.3,717,160
+RTX PRO 6000,off,new-mtp-ft-ko,casual-en,1,26,400,5.7,70.1,558,213
+RTX PRO 6000,off,new-mtp-ft-ko,code-review,1,1607,400,7.1,56.6,630,190
+RTX PRO 6000,off,new-mtp-ft-ko,doc-en-sum,1,10156,400,9.1,43.8,612,196
+RTX PRO 6000,off,new-mtp-ft-ko,code-gen,1,32,400,4.8,82.7,471,245
+RTX PRO 6000,off,new-mtp-ft-ko,casual-ko,2,32,400,6.8,59.1,663,178
+RTX PRO 6000,off,new-mtp-ft-ko,casual-en,2,26,400,6.4,62.3,627,190
+RTX PRO 6000,off,new-mtp-ft-ko,code-review,2,1607,400,6.9,57.6,633,189
+RTX PRO 6000,off,new-mtp-ft-ko,doc-en-sum,2,10156,400,7.6,52.8,597,201
+RTX PRO 6000,off,new-mtp-ft-ko,code-gen,2,32,400,4.7,85.8,453,248
+RTX PRO 6000,off,original-mtp,casual-ko,1,32,400,13.9,28.7,1146,17
+RTX PRO 6000,off,original-mtp,casual-en,1,26,400,12.1,33.0,1191,2
+RTX PRO 6000,off,original-mtp,code-review,1,1607,400,12.8,31.2,1164,11
+RTX PRO 6000,off,original-mtp,doc-en-sum,1,10156,400,15.9,25.2,1152,15
+RTX PRO 6000,off,original-mtp,code-gen,1,32,400,12.2,32.8,1197,0
+RTX PRO 6000,off,original-mtp,casual-ko,2,32,400,11.7,34.1,1152,15
+RTX PRO 6000,off,original-mtp,casual-en,2,26,400,12.2,32.8,1197,0
+RTX PRO 6000,off,original-mtp,code-review,2,1607,400,12.7,31.4,1170,9
+RTX PRO 6000,off,original-mtp,doc-en-sum,2,10156,400,14.1,28.3,1128,23
+RTX PRO 6000,off,original-mtp,code-gen,2,32,400,12.2,32.8,1197,0
+RTX PRO 6000,on,original-mtp,casual-ko,1,30,400,9.5,41.9,729,156
+RTX PRO 6000,on,original-mtp,casual-en,1,24,400,6.1,65.8,594,202
+RTX PRO 6000,on,original-mtp,code-review,1,1605,400,7.8,51.3,699,166
+RTX PRO 6000,on,original-mtp,doc-en-sum,1,10154,400,9.5,42.1,642,185
+RTX PRO 6000,on,original-mtp,code-gen,1,30,400,6.4,62.3,627,190
+RTX PRO 6000,on,original-mtp,casual-ko,2,30,400,6.8,58.5,669,176
+RTX PRO 6000,on,original-mtp,casual-en,2,24,400,6.4,62.0,630,189
+RTX PRO 6000,on,original-mtp,code-review,2,1605,400,7.4,54.2,675,175
+RTX PRO 6000,on,original-mtp,doc-en-sum,2,10154,400,7.6,52.7,600,200
+RTX PRO 6000,on,original-mtp,code-gen,2,30,400,6.3,63.2,618,194
+RTX PRO 6000,on,new-mtp-ft-ko,casual-ko,1,30,400,9.3,43.0,708,163
+RTX PRO 6000,on,new-mtp-ft-ko,casual-en,1,24,400,6.7,59.7,654,181
+RTX PRO 6000,on,new-mtp-ft-ko,code-review,1,1605,400,7.5,53.6,666,178
+RTX PRO 6000,on,new-mtp-ft-ko,doc-en-sum,1,10154,400,10.0,40.1,678,173
+RTX PRO 6000,on,new-mtp-ft-ko,code-gen,1,30,400,6.2,64.1,609,198
+RTX PRO 6000,on,new-mtp-ft-ko,casual-ko,2,30,400,7.3,54.4,720,159
+RTX PRO 6000,on,new-mtp-ft-ko,casual-en,2,24,400,6.4,62.4,627,191
+RTX PRO 6000,on,new-mtp-ft-ko,code-review,2,1605,400,7.5,53.0,690,169
+RTX PRO 6000,on,new-mtp-ft-ko,doc-en-sum,2,10154,400,8.3,48.0,660,179
+RTX PRO 6000,on,new-mtp-ft-ko,code-gen,2,30,400,6.0,66.7,585,205
+GB10,off,original-mtp,casual-ko,1,32,400,77.0,5.2,1164,11
+GB10,off,original-mtp,casual-en,1,26,400,78.8,5.1,1191,2
+GB10,off,original-mtp,code-review,1,1607,400,76.2,5.3,1131,22
+GB10,off,original-mtp,doc-en-sum,1,10156,400,80.4,5.0,1140,19
+GB10,off,original-mtp,code-gen,1,32,400,79.2,5.1,1197,0
+GB10,off,ngram-k3,casual-ko,1,32,400,52.8,7.6,177,82
+GB10,off,ngram-k3,casual-en,1,26,400,63.2,6.3,150,20
+GB10,off,ngram-k3,code-review,1,1607,400,54.9,7.3,246,80
+GB10,off,ngram-k3,doc-en-sum,1,10156,400,73.5,5.4,243,50
+GB10,off,ngram-k3,code-gen,1,32,400,59.3,6.7,168,44
+GB10,off,no-spec,casual-ko,1,32,400,65.8,6.1,0,0
+GB10,off,no-spec,casual-en,1,26,400,65.8,6.1,0,0
+GB10,off,no-spec,code-review,1,1607,400,67.8,5.9,0,0
+GB10,off,no-spec,doc-en-sum,1,10156,400,80.5,5.0,0,0
+GB10,off,no-spec,code-gen,1,32,400,65.8,6.1,0,0
+GB10,off,draft-exaone-4.0-1.2b,casual-ko,1,32,400,98.8,4.0,885,104
+GB10,off,draft-exaone-4.0-1.2b,casual-en,1,26,400,64.3,6.2,945,84
+GB10,off,draft-exaone-4.0-1.2b,code-review,1,1607,400,67.6,5.9,954,81
+GB10,off,draft-exaone-4.0-1.2b,doc-en-sum,1,10156,400,74.2,5.4,822,125
+GB10,off,draft-exaone-4.0-1.2b,code-gen,1,32,400,55.4,7.2,813,128
+GB10,off,draft-exaone-4.0-1.2b,casual-ko,2,32,400,56.2,7.1,825,126
+GB10,off,draft-exaone-4.0-1.2b,casual-en,2,26,400,60.0,6.7,879,106
+GB10,off,draft-exaone-4.0-1.2b,code-review,2,1607,400,59.9,6.7,855,115
+GB10,off,draft-exaone-4.0-1.2b,doc-en-sum,2,10156,400,61.4,6.5,807,130
+GB10,off,draft-exaone-4.0-1.2b,code-gen,2,32,400,53.8,7.4,789,138
+GB10,off,new-mtp-ft-ko,casual-ko,1,32,400,48.0,8.3,711,162
+GB10,off,new-mtp-ft-ko,casual-en,1,26,400,42.8,9.4,648,183
+GB10,off,new-mtp-ft-ko,code-review,1,1607,400,39.9,10.0,582,205
+GB10,off,new-mtp-ft-ko,doc-en-sum,1,10156,400,54.8,7.3,621,193
+GB10,off,new-mtp-ft-ko,code-gen,1,32,400,29.1,13.7,438,254
+GB10,off,new-mtp-ft-ko,casual-ko,2,32,400,49.2,8.1,744,154
+GB10,off,new-mtp-ft-ko,casual-en,2,26,400,43.0,9.3,651,182
+GB10,off,new-mtp-ft-ko,code-review,2,1607,400,42.2,9.5,627,192
+GB10,off,new-mtp-ft-ko,doc-en-sum,2,10156,400,43.4,9.2,618,194
+GB10,off,new-mtp-ft-ko,code-gen,2,32,400,32.7,12.2,492,235

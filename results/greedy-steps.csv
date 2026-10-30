@@ -1,0 +1,21 @@
+device,thinking,config,prompt,steps,acc_pos1,acc_pos2,acc_pos3
+RTX PRO 6000,off,new-mtp-ft-ko,casual-ko,213,109,48,29
+RTX PRO 6000,off,new-mtp-ft-ko,casual-en,191,113,61,34
+RTX PRO 6000,off,new-mtp-ft-ko,code-review,189,122,62,28
+RTX PRO 6000,off,new-mtp-ft-ko,doc-en-sum,190,112,63,35
+RTX PRO 6000,off,new-mtp-ft-ko,code-gen,149,112,84,56
+RTX PRO 6000,off,original-mtp,casual-ko,386,14,0,0
+RTX PRO 6000,off,original-mtp,casual-en,398,1,0,0
+RTX PRO 6000,off,original-mtp,code-review,386,13,0,0
+RTX PRO 6000,off,original-mtp,doc-en-sum,383,16,0,0
+RTX PRO 6000,off,original-mtp,code-gen,399,0,0,0
+RTX PRO 6000,on,original-mtp,casual-ko,191,113,64,31
+RTX PRO 6000,on,original-mtp,casual-en,194,123,54,29
+RTX PRO 6000,on,original-mtp,code-review,187,116,63,33
+RTX PRO 6000,on,original-mtp,doc-en-sum,195,125,59,20
+RTX PRO 6000,on,original-mtp,code-gen,175,104,75,46
+RTX PRO 6000,on,new-mtp-ft-ko,casual-ko,186,112,69,32
+RTX PRO 6000,on,new-mtp-ft-ko,casual-en,198,118,53,31
+RTX PRO 6000,on,new-mtp-ft-ko,code-review,194,109,61,35
+RTX PRO 6000,on,new-mtp-ft-ko,doc-en-sum,202,123,51,23
+RTX PRO 6000,on,new-mtp-ft-ko,code-gen,170,110,71,49
